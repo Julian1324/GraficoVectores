@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./vendors/three.js-master/build/three.min.js" ></script>
+    <script src="./libs/controls/OrbitControls.js"></script>
+    <script src="./src/main.js" ></script>
+</head>
+<body onload="init()">
+    <div class="gui">
+        <div class="vector">
+            <span>Vector U = </span>
+            <input name="x" data-julian="U" placeholder="x" type="number">
+            <input name="y" data-julian="U" placeholder="y" type="number">
+            <input name="z" data-julian="U" placeholder="z" type="number">
+        </div>
+        <div class="vector">
+                <span>Vector V = </span>
+                <input name="x" data-julian="V" placeholder="x" type="number">
+                <input name="y" data-julian="V" placeholder="y" type="number">
+                <input name="z" data-julian="V" placeholder="z" type="number">
+            </div>
+        <div class="coolButton" onclick="graficar()">
+            Graficar
+        </div>
+    </div>
+    <canvas></canvas>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+.gui{
+    position: absolute;
+    color: white;
+    display: flex;
+    right: 0%;
+    margin: 20px;
+    flex-flow: column;
+}
+
+.gui span{
+    font-size: 120%;
+}
+
+.gui .vector input{
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 120%;
+    width: 80px;
+    text-align: center;
+}
+
+.gui .coolButton{
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px 25px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
